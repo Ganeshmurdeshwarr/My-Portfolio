@@ -1,4 +1,3 @@
-// src/components/Skills/Skills.jsx
 import React from "react";
 import { SkillsInfo } from "../../details";
 import Tilt from "react-parallax-tilt";
@@ -6,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 const Skills = () => (
   <section
     id="skills"
-    className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom"
+    className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans skill-bg clip-path-custom"
   >
     {/* Section Title */}
     <div className="text-center mb-8">

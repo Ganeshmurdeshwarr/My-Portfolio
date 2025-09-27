@@ -18,7 +18,7 @@ export default {
         blob: 'blob 10s infinite',
       },
       backgroundImage: {
-        'skills-gradient': 'linear-gradient(38.73deg, rgba(1, 0, 1, 0.15) 0%, rgba(1, 1, 1, 0) 50%), linear-gradient(141.27deg, rgba(0, 1, 1, 0) 50%, rgba(0, 1, 1, 0.15) 100%)',
+        'skills-gradient': "linear-gradient(38.73deg,rgba(128, 0, 128, 0.3) 0%,   rgba(128, 128, 128, 0.2) 50%, rgba(0, 128, 128, 0.2) 50%,   rgba(0, 128, 128, 0.3) 100%)",
       },
     },
   },

@@ -34,14 +34,13 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import VRIAOLogo from './assets/company_logo/vraio-logo-01.svg';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import school from './assets/education_logo/school_profile.webp';
+import collage from './assets/education_logo/collage.png';
+import diploma from './assets/education_logo/diploma.png';
+import engineering from './assets/education_logo/mite-logo.svg';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -115,55 +114,16 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      img: VRIAOLogo,
+      role: "Web Developer",
+      company: "Vraio Software Solution",
+      date: "Feb 2025 - May 2025",
+      desc: "Developed dynamic and scalable web applications using the MERN stack, handling  frontend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
+        "React JS",,
       ],
     },
   ];
@@ -171,39 +131,39 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
+      img: engineering,
+      school: "Mangalore Institute of Technology & Engineering",
       date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      grade: "6.7 CGPA",
+      desc: "I have completed my Bachelor's degree in Computer Science and Engineering (CSE) from MITE College. During my time at MITE, I gained a strong foundation in computer science principles, software development, and problem-solving techniques. I studied courses such as Data Structures and Algorithms, Operating Systems, Computer Networks, Database Management Systems, Web Technologies, and Software Engineering. Alongside academics, I actively participated in workshops, technical fests, and coding events, which helped me sharpen my practical skills and expand my knowledge. My experience at MITE College has been crucial in building my technical expertise and preparing me for a successful professional career.",
+      degree: "Bachelor of Computer Science and Engineering - BE",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
+      img: diploma,
+      school: "R.N.Shetty Rural Polytechnic, Murudeshwar",
       date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      grade: "56%",
+      desc: "I have completed my Diploma in Electrical and Electronics Engineering (EEE) from R.N. Shetty Rural Polytechnic, Murudeshwar. During my time at R.N. Shetty, I developed a solid foundation in electrical circuits, electronics, and engineering principles. I studied courses such as Electrical Machines, Power Systems, Control Systems, Digital Electronics, and Microprocessors. Along with academics, I actively engaged in practical lab sessions and technical activities that strengthened my problem-solving and analytical skills. My diploma journey at R.N. Shetty Rural Polytechnic played a vital role in building my technical knowledge and laid the groundwork for my further studies and professional growth.",
+      degree: "Diploma in Electrical and Electronics Engineering-EEE ",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
+      img: collage,
+      school: "Siddhartha Pre-University College Bhatkal",
       date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      grade: "55%",
+      desc: "I completed my class 12 education from Siddhartha Pre-University College Bhatkal, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+      degree: "CBSE(XII) - PCM with Computer Science ",
     },
     {
       id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
+      img: school,
+      school: "Janata Vidhyalaya School murudeshawra, Bhatkal",
       date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      grade: "68.8%",
+      desc: "I completed my class 10 education from Janata Vidhyalaya School, murudeshawra, under the CBSE board.",
+      degree: "CBSE-10th",
     },
   ];
   
