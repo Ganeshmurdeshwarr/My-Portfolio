@@ -43,16 +43,7 @@ import diploma from './assets/education_logo/diploma.png';
 import engineering from './assets/education_logo/mite-logo.svg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import taskmanagement from './assets/work_logo/taskmanagement.png';
 
 export const SkillsInfo = [
   {
@@ -172,10 +163,10 @@ export const SkillsInfo = [
       title: "Employee Task Management System",
       description:
         "A robust React.js Employee Task Management System featuring separate dashboards for Admin and Employees. Admins can create and assign tasks, track progress, and monitor completed, pending, or failed tasks. Employees can view and update their tasks seamlessly, ensuring efficient task management and clear accountability.",
-      image: githubdetLogo,
+      image: taskmanagement,
       tags: ["HTML", "CSS", "JavaScript", "React JS"],
       github: "https://github.com/Ganeshmurdeshwarr/Employee-Task-Management-System",
-      webapp: "/",
+      webapp: "http://employeetaskmanagementsystem.vercel.app",
     },
   
   ];  

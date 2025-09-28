@@ -38,11 +38,11 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "" },
-            { icon: <FaTwitter />, link: "" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/tarun-kaushik-553b441a4" },
-            { icon: <FaInstagram />, link: "" },
-            { icon: <FaYoutube />, link: "" },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/ganeshmurdeshwarr/" },
+            // { icon: <FaFacebook />, link: "" },
+            // { icon: <FaTwitter />, link: "" },
+            // { icon: <FaYoutube />, link: "" },
             
           ].map((item, index) => (
             <a
