@@ -44,6 +44,7 @@ import engineering from './assets/education_logo/mite-logo.svg';
 
 // Project Section Logo's
 import taskmanagement from './assets/work_logo/taskmanagement.png';
+import codeEditor from './assets/work_logo/codeEditor.png';
 
 export const SkillsInfo = [
   {
@@ -162,11 +163,22 @@ export const SkillsInfo = [
       id: 0,
       title: "Employee Task Management System",
       description:
-        "A robust React.js Employee Task Management System featuring separate dashboards for Admin and Employees. Admins can create and assign tasks, track progress, and monitor completed, pending, or failed tasks. Employees can view and update their tasks seamlessly, ensuring efficient task management and clear accountability.",
+        "A robust React.js Employee Task Management System featuring separate dashboards for Admin and Employees. Admins can create and assign tasks, track progress, and monitor completed, pending, or failed tasks. Employees can view and update their tasks seamlessly, ensuring efficient task management and clear accountability. DEMO--(ADMIN-LOG->amdmi@123.com(pass-123) and USER-LOG->amit@123.com(pass-123)",
       image: taskmanagement,
       tags: ["HTML", "CSS", "JavaScript", "React JS"],
       github: "https://github.com/Ganeshmurdeshwarr/Employee-Task-Management-System",
       webapp: "http://employeetaskmanagementsystem.vercel.app",
+    },
+  
+    {
+      id: 1,
+      title: "Code Editor",
+      description:
+        "A simple web-based code editor built with React, CodeMirror 6, TailwindCSS, and Vite.It allows you to write HTML, CSS, and JavaScript in separate editor panels and preview the live output in real-time inside an iframe (with a 500ms debounce to avoid excessive refresh).",
+      image: codeEditor,
+      tags: ["HTML", "CSS", "JavaScript", "React JS","Tailwind","Codemirror6"],
+      github: "https://github.com/Ganeshmurdeshwarr/Code-Edditer",
+      webapp: "http://jscode-editor.vercel.app",
     },
   
   ];  
