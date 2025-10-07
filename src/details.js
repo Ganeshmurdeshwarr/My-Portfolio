@@ -157,7 +157,7 @@ export const SkillsInfo = [
       description:
         "A robust React.js Employee Task Management System featuring separate dashboards for Admin and Employees. Admins can create and assign tasks, track progress, and monitor completed, pending, or failed tasks. Employees can view and update their tasks seamlessly, ensuring efficient task management and clear accountability. DEMO--(ADMIN-LOG->admin@123.com(pass-123) and USER-LOG->amit@123.com(pass-123)",
       image: taskmanagement,
-      tags: ["HTML", "CSS", "JavaScript", "React JS"],
+      tags: ["HTML", "CSS", "JavaScript", "React JS","Tailwind"],
       github: "https://github.com/Ganeshmurdeshwarr/Employee-Task-Management-System",
       webapp: "http://employeetaskmanagementsystem.vercel.app",
     },
