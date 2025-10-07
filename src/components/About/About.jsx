@@ -24,8 +24,8 @@ const About = () => {
             <span className="text-white">I am a </span>
             <span>
               <Typewriter
-                words={["Coder", "Frontend Developer", "Software Developer"]}
-                loop={0} // 0 = infinite
+                words={["Coder", "Frontend Developer", "Software Developer","Web Developer"]}
+                loop={0} 
                 cursor
                 cursorStyle="|"
                 typeSpeed={100}

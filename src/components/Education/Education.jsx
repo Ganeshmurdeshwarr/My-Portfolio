@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "../../details"; // Import the education data
+import { education } from "../../details"; 
 
 const Education = () => {
   return (

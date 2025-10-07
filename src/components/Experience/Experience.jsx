@@ -1,6 +1,5 @@
 import React from "react";
 import { experiences } from "../../details";
- // Import your data
 
 const Experience = () => {
   return (
