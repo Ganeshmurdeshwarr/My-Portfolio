@@ -45,6 +45,8 @@ import engineering from './assets/education_logo/mite-logo.svg';
 // Project Section Logo's
 import taskmanagement from './assets/work_logo/taskmanagement.png';
 import codeEditor from './assets/work_logo/codeEditor.png';
+import youtube from './assets/work_logo/youtube.png';
+import netflix from './assets/work_logo/netflix.png';
 
 export const SkillsInfo = [
   {
@@ -62,10 +64,10 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'MySQL', logo: mysqlLogo },
+      { name: 'Firebase', logo: firebaseLogo },
       // { name: 'Node JS', logo: nodejsLogo },
       // { name: 'Express JS', logo: expressjsLogo },
       // { name: 'MongoDB', logo: mongodbLogo },
-      // { name: 'Firebase', logo: firebaseLogo },
       // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
@@ -151,24 +153,46 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+   {
+  id: 0,
+  title: "YouTube Clone",
+  description:
+    "A fully responsive YouTube Clone built with React.js, Tailwind CSS, and Firebase. It replicates core YouTube functionalities such as video search, playback, and channel browsing using the YouTube Data API. Implemented Firebase Authentication for secure user login/signup and used Firebase as the backend for storing user data like subscriptions and liked videos. Includes a dynamic video player page, comments section, recommended videos, and search results page — providing a smooth and realistic YouTube experience.",
+  image: youtube, // replace with your imported image
+  tags: ["React JS", "Tailwind CSS", "Firebase", "YouTube Data API", "Vite","Vercel"],
+  github: "https://github.com/Ganeshmurdeshwarr/youtube-clone",
+  webapp: "https://youtube-clone-ganesh.vercel.app"
+},
+
     {
-      id: 0,
+      id: 1,
       title: "Employee Task Management System",
       description:
         "A robust React.js Employee Task Management System featuring separate dashboards for Admin and Employees. Admins can create and assign tasks, track progress, and monitor completed, pending, or failed tasks. Employees can view and update their tasks seamlessly, ensuring efficient task management and clear accountability. DEMO--(ADMIN-LOG->admin@123.com(pass-123) and USER-LOG->amit@123.com(pass-123)",
       image: taskmanagement,
-      tags: ["HTML", "CSS", "JavaScript", "React JS","Tailwind"],
+      tags: ["HTML", "CSS", "JavaScript", "React JS","Tailwind","Vercel"],
       github: "https://github.com/Ganeshmurdeshwarr/Employee-Task-Management-System",
       webapp: "http://employeetaskmanagementsystem.vercel.app",
     },
+    {
+  id: 2,
+  title: "Movie App",
+  description:
+    "A sleek and responsive Movie App built with React.js, Tailwind CSS, and Firebase. Integrated TheMovieDB API to display trending, popular, and top-rated movies with detailed information pages. Implemented Firebase Authentication for secure user login/signup and personalized access. Features include movie browsing, dynamic search, and smooth navigation for an engaging user experience — all optimized for performance and scalability.",
+  image: netflix, // replace with your imported image
+  tags: ["React JS", "Tailwind CSS", "Firebase", "TheMovieDB API", "Vite","Vercel"],
+  github: "https://github.com/Ganeshmurdeshwarr/Netflix-Clone",
+  webapp: "https://netflix-clone-ganesh.vercel.app/",
+}
+,
   
     {
-      id: 1,
+      id: 3,
       title: "Code Editor",
       description:
         "A simple web-based code editor built with React, CodeMirror 6, TailwindCSS, and Vite.It allows you to write HTML, CSS, and JavaScript in separate editor panels and preview the live output in real-time inside an iframe (with a 500ms debounce to avoid excessive refresh).",
       image: codeEditor,
-      tags: ["HTML", "CSS", "JavaScript", "React JS","Tailwind","Codemirror6"],
+      tags: ["HTML", "CSS", "JavaScript", "React JS","Tailwind","Codemirror6","vercel"],
       github: "https://github.com/Ganeshmurdeshwarr/Code-Edditer",
       webapp: "http://jscode-editor.vercel.app",
     },
