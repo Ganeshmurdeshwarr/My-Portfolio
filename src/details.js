@@ -68,7 +68,7 @@ export const SkillsInfo = [
   {
     title: 'Languages',
     skills: [
-      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'Java\nScript', logo: javascriptLogo },
     //   { name: 'TypeScript', logo: typescriptLogo },
     //   { name: 'Python', logo: pythonLogo },
     //   { name: 'C', logo: cLogo },

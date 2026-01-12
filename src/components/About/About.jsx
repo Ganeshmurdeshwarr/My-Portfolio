@@ -24,8 +24,15 @@ const About = () => {
             <span className="text-white">I am a </span>
             <span>
               <Typewriter
-                words={["Coder", "Frontend Developer", "Software Developer","Web Developer"]}
-                loop={0} 
+                words={[
+                  "Coder",
+                  "MERN Full-Stack Developer",
+                  "Frontend Developer",
+                  "Backend Developer",
+                  "Software Developer",
+                  "Web Developer",
+                ]}
+                loop={0}
                 cursor
                 cursorStyle="|"
                 typeSpeed={100}
@@ -36,7 +43,12 @@ const About = () => {
           </h3>
 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 Mb-10 mt-8 leading-relaxed ">
-           Hi, I’m Ganesh Murdeshwar, a passionate Frontend Developer skilled in HTML, CSS, JavaScript, and React.js. As a fresher, I bring strong problem-solving skills, quick learning abilities, and a love for creating clean, responsive, and user-friendly designs. My goal is to grow as a developer and contribute to impactful projects while continuously improving my craft.
+            Hi, I’m Ganesh Murdeshwar, a passionate Frontend Developer skilled
+            in HTML, CSS, JavaScript, and React.js. As a fresher, I bring strong
+            problem-solving skills, quick learning abilities, and a love for
+            creating clean, responsive, and user-friendly designs. My goal is to
+            grow as a developer and contribute to impactful projects while
+            continuously improving my craft.
           </p>
 
           <a
