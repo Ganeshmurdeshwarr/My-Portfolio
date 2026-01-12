@@ -24,6 +24,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import renderLogo from './assets/tech_logo/render-logo.webp';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
+import postMan from './assets/tech_logo/postman.png';
 
 // Experience Section Logo's
 import VRIAOLogo from './assets/company_logo/vraio-logo-01.svg';
@@ -39,52 +40,52 @@ import taskmanagement from './assets/work_logo/taskmanagement.png';
 import codeEditor from './assets/work_logo/codeEditor.png';
 import youtube from './assets/work_logo/youtube.png';
 import netflix from './assets/work_logo/netflix.png';
-import ecommerce from './assets/work_logo/ecommerce.png';
+import ecommerce from './assets/work_logo/E-commerce.png';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: "Frontend",
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Material UI',logo: materialuiLogo },
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "Java\nScript", logo: javascriptLogo },
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
+      { name: "Material UI", logo: materialuiLogo },
     ],
   },
   {
-    title: 'Backend',
+    title: "Backend",
     skills: [
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: "MySQL", logo: mysqlLogo },
+      { name: "Firebase", logo: firebaseLogo },
+      { name: "Node JS", logo: nodejsLogo },
+      { name: "Express JS", logo: expressjsLogo },
+      { name: "MongoDB", logo: mongodbLogo },
+      { name: "PostMan", logo: postMan },
     ],
   },
   {
-    title: 'Languages',
+    title: "Languages",
     skills: [
-      { name: 'Java\nScript', logo: javascriptLogo },
-    //   { name: 'TypeScript', logo: typescriptLogo },
-    //   { name: 'Python', logo: pythonLogo },
-    //   { name: 'C', logo: cLogo },
-    //   { name: 'C++', logo: cppLogo },
-    //   { name: 'Java', logo: javaLogo },
+      { name: "Java\nScript", logo: javascriptLogo },
+      //   { name: 'TypeScript', logo: typescriptLogo },
+      //   { name: 'Python', logo: pythonLogo },
+      //   { name: 'C', logo: cLogo },
+      //   { name: 'C++', logo: cppLogo },
+      //   { name: 'Java', logo: javaLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: "Tools",
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Render', logo: renderLogo  },
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Vercel", logo: vercelLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Render", logo: renderLogo },
       // { name: 'Netlify', logo: netlifyLogo },
       // { name: 'Figma', logo: figmaLogo },
     ],
@@ -149,10 +150,10 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "🛒 E-Commerce Web Application (MERN Stack)",
+      title: "E-Commerce Web Application (MERN)",
       description:
-        "A full-stack e-commerce platform built using the MERN stack, designed to handle real-world shopping workflows.\nThe application supports secure user authentication, product management, cart & checkout, and order processing, following scalable backend architecture and clean frontend design.\nKey highlights:\nImplemented JWT-based authentication and protected routes\nBuilt RESTful APIs using Node.js & Express\nDesigned a responsive React UI with Redux Toolkit for state management\nIntegrated MongoDB for product, user, and order data\nDeveloped admin features for product and order management\nDeployed frontend and backend on cloud platforms\nThis project demonstrates strong understanding of full-stack development, API design, and real-world application flow.",
-      image: ecommerce , 
+        "A full-stack e-commerce application built using the MERN stack, designed to handle real-world shopping workflows. It features secure JWT-based authentication, product management, cart and checkout functionality, and order processing. The app uses RESTful APIs with Node.js and Express, a responsive React UI with Redux Toolkit for state management, and MongoDB for storing user, product, and order data—demonstrating strong full-stack development and scalable application design.",
+      image: ecommerce,
       tags: [
         "React JS",
         "Tailwind CSS",
@@ -172,7 +173,7 @@ export const SkillsInfo = [
       title: "YouTube Clone",
       description:
         "A fully responsive YouTube Clone built with React.js, Tailwind CSS, and Firebase. It replicates core YouTube functionalities such as video search, playback, and channel browsing using the YouTube Data API. Implemented Firebase Authentication for secure user login/signup and used Firebase as the backend for storing user data like subscriptions and liked videos. Includes a dynamic video player page, comments section, recommended videos, and search results page — providing a smooth and realistic YouTube experience.",
-      image: youtube, 
+      image: youtube,
       tags: [
         "React JS",
         "Tailwind CSS",
@@ -201,7 +202,7 @@ export const SkillsInfo = [
       title: "Movie App",
       description:
         "A sleek and responsive Movie App built with React.js, Tailwind CSS, and Firebase. Integrated TheMovieDB API to display trending, popular, and top-rated movies with detailed information pages. Implemented Firebase Authentication for secure user login/signup and personalized access. Features include movie browsing, dynamic search, and smooth navigation for an engaging user experience — all optimized for performance and scalability.",
-      image: netflix, 
+      image: netflix,
       tags: [
         "React JS",
         "Tailwind CSS",
