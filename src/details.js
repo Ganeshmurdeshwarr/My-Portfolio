@@ -25,6 +25,8 @@ import renderLogo from './assets/tech_logo/render-logo.webp';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import postMan from './assets/tech_logo/postman.png';
+import motion from './assets/tech_logo/motion.png';
+import socket from './assets/tech_logo/socket.png';
 
 // Experience Section Logo's
 import VRIAOLogo from './assets/company_logo/vraio-logo-01.svg';
@@ -40,7 +42,8 @@ import taskmanagement from './assets/work_logo/taskmanagement.png';
 import codeEditor from './assets/work_logo/codeEditor.png';
 import youtube from './assets/work_logo/youtube.png';
 import netflix from './assets/work_logo/netflix.png';
-import ecommerce from './assets/work_logo/E-commerce.png';
+import E_commerce from './assets/work_logo/E-commerce.png';
+import chat from './assets/work_logo/Chat-app.png';
 
 export const SkillsInfo = [
   {
@@ -53,6 +56,7 @@ export const SkillsInfo = [
       { name: "Redux", logo: reduxLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "Material UI", logo: materialuiLogo },
+      { name: "Framer Motion", logo: motion },
     ],
   },
   {
@@ -63,6 +67,7 @@ export const SkillsInfo = [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
       { name: "MongoDB", logo: mongodbLogo },
+      { name: "Socket.Io", logo: socket },
       { name: "PostMan", logo: postMan },
     ],
   },
@@ -70,7 +75,7 @@ export const SkillsInfo = [
     title: "Languages",
     skills: [
       { name: "Java\nScript", logo: javascriptLogo },
-      //   { name: 'TypeScript', logo: typescriptLogo },
+      { name: "TypeScript", logo: typescriptLogo },
       //   { name: 'Python', logo: pythonLogo },
       //   { name: 'C', logo: cLogo },
       //   { name: 'C++', logo: cppLogo },
@@ -147,26 +152,46 @@ export const SkillsInfo = [
     },
   ];
   
+
   export const projects = [
     {
       id: 0,
       title: "E-Commerce Web Application (MERN)",
       description:
         "A full-stack e-commerce application built using the MERN stack, designed to handle real-world shopping workflows. It features secure JWT-based authentication, product management, cart and checkout functionality, and order processing. The app uses RESTful APIs with Node.js and Express, a responsive React UI with Redux Toolkit for state management, and MongoDB for storing user, product, and order data—demonstrating strong full-stack development and scalable application design.",
-      image: ecommerce,
+      image: E_commerce,
       tags: [
         "React JS",
         "Tailwind CSS",
         "Node JS",
         "Express JS",
         "MongoDB",
-        "postman",
         "Vite",
         "Vercel",
         "Render",
       ],
       github: "https://github.com/Ganeshmurdeshwarr/E-commerce",
       webapp: "https://e-commerce-p1y6.vercel.app/",
+    },
+    {
+      id: 1,
+      title: "Full-Stack Real-Time Chat Application (MERN)",
+      description:
+        "Developed a full-stack real-time chat application enabling instant messaging, user authentication, and live online status tracking. Implemented Socket.IO for bidirectional communication and built secure REST APIs for user management. Designed scalable backend architecture and responsive frontend UI for seamless real-time interactions.",
+      image: chat,
+      tags: [
+        "React JS",
+        "Node JS",
+        "Socket.Io",
+        "Tailwind CSS",
+        "Express JS",
+        "MongoDB",
+        "Vite",
+        "Vercel",
+        
+      ],
+      github: "https://github.com/Ganeshmurdeshwarr/Chat-App",
+      webapp: "https://chat-app-two-blue-90.vercel.app/",
     },
     {
       id: 1,
