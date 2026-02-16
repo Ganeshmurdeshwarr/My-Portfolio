@@ -52,8 +52,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1X54jDem73XLdjO0Y4lLKp04IlB2vj2ja/view?usp=drivesdk"
-            target="_blank"
+            href="https://https://drive.google.com/file/d/1iuRuXI20yjTIGo-Yj3EBzY6PAMLVN9e4/view?usp=drivesdk"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition  duration-300 transform hover:scale-105 "
             style={{
