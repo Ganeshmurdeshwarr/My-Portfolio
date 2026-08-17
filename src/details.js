@@ -186,7 +186,7 @@ export const projects = [
       "Motion",
     ],
     github: "https://github.com/Ganeshmurdeshwarr/Multi-Agent-AI-App",
-    webapp: "https://d2sq4o76d9oio1.cloudfront.net/",
+    webapp: "https://redirect-multi-agent-git-main-ganesh-devadigas-projects.vercel.app/",
   },
   {
     id: 1,
