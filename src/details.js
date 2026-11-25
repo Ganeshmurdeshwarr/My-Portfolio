@@ -168,6 +168,27 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Nexora AI – AI-Powered Multi-Agent Personal Assistant",
+    description:
+      "Developed Nexora AI, a full-stack AI assistant using the MERN stack, LangGraph, and MCP to enable intelligent conversations and multi-agent workflows. Integrated specialized AI agents for web search, image analysis, email management, calendar scheduling, and Instagram publishing. Implemented OAuth 2.0 authentication to connect Gmail, Google Calendar, and Instagram, and built a responsive React interface using Redux Toolkit and Tailwind CSS, deployed on Render.",
+    image: Multi_agent,
+    tags: [
+      "React JS",
+      "LangChain",
+      "LangGraph",
+      "MCP",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "Razorpay",
+      "Tailwind CSS",
+      "Motion",
+    ],
+    github: "https://github.com/Ganeshmurdeshwarr/Nexora-AI",
+    webapp: "https://nexora-ai-4-mwau.onrender.com/agents",
+  },
+  {
+    id: 1,
     title: "Multi-agent AI Application",
     description:
       "Designed and developed a scalable AI-powered multi-agent platform that intelligently routes user requests to specialized AI agents based on task type. Built using a microservices architecture with production-ready cloud deployment and automated CI/CD.",
@@ -189,7 +210,7 @@ export const projects = [
     webapp: "https://redirect-multi-agent-git-main-ganesh-devadigas-projects.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "AI-Powered React UI Library",
     description:
       "AI-Powered React UI Library An AI-powered React component library that allows developers to use prebuilt UI components or generate custom React components using AI. Built with the MERN stack, this platform combines reusable UI components, AI-powered generation, npm package publishing, authentication, and payment integration into one complete developer ecosystem.",
@@ -209,7 +230,7 @@ export const projects = [
     webapp: " https://ai-powered-ui-library-main.onrender.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "E-Commerce Web Application (MERN)",
     description:
       "A full-stack e-commerce application built using the MERN stack, designed to handle real-world shopping workflows. It features secure JWT-based authentication, product management, cart and checkout functionality, and order processing. The app uses RESTful APIs with Node.js and Express, a responsive React UI with Redux Toolkit for state management, and MongoDB for storing user, product, and order data—demonstrating strong full-stack development and scalable application design.",
@@ -228,7 +249,7 @@ export const projects = [
     webapp: "https://e-commerce-p1y6.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Full-Stack Real-Time Chat Application (MERN)",
     description:
       "Developed a full-stack real-time chat application enabling instant messaging, user authentication, and live online status tracking. Implemented Socket.IO for bidirectional communication and built secure REST APIs for user management. Designed scalable backend architecture and responsive frontend UI for seamless real-time interactions.",
@@ -247,7 +268,7 @@ export const projects = [
     webapp: "https://chat-app-two-blue-90.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "YouTube Clone",
     description:
       "A fully responsive YouTube Clone built with React.js, Tailwind CSS, and Firebase. It replicates core YouTube functionalities such as video search, playback, and channel browsing using the YouTube Data API. Implemented Firebase Authentication for secure user login/signup and used Firebase as the backend for storing user data like subscriptions and liked videos. Includes a dynamic video player page, comments section, recommended videos, and search results page — providing a smooth and realistic YouTube experience.",
@@ -265,7 +286,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Employee Task Management System",
     description:
       "A robust React.js Employee Task Management System featuring separate dashboards for Admin and Employees. Admins can create and assign tasks, track progress, and monitor completed, pending, or failed tasks. Employees can view and update their tasks seamlessly, ensuring efficient task management and clear accountability. DEMO--(ADMIN-LOG->admin@123.com(pass-123) and USER-LOG->amit@123.com(pass-123)",
@@ -276,7 +297,7 @@ export const projects = [
     webapp: "http://employeetaskmanagementsystem.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     title: "Movie App",
     description:
       "A sleek and responsive Movie App built with React.js, Tailwind CSS, and Firebase. Integrated TheMovieDB API to display trending, popular, and top-rated movies with detailed information pages. Implemented Firebase Authentication for secure user login/signup and personalized access. Features include movie browsing, dynamic search, and smooth navigation for an engaging user experience — all optimized for performance and scalability.",
@@ -293,7 +314,7 @@ export const projects = [
     webapp: "https://netflix-clone-ganesh.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Code Editor",
     description:
       "A simple web-based code editor built with React, CodeMirror 6, TailwindCSS, and Vite.It allows you to write HTML, CSS, and JavaScript in separate editor panels and preview the live output in real-time inside an iframe (with a 500ms debounce to avoid excessive refresh).",
